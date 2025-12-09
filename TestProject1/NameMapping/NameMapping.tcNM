@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{6D96DDBC-2BCD-48DF-932E-4D8F6B292AEE}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4ACDD7F5-FEDE-4A2B-B437-2A89A3DE1112}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{F7B437EA-9CC0-42F6-A5B5-593E4AF1E2FC}">
+								<Image FileName="-1593084172" Left="-9" Top="-9" Right="1929" Bottom="1149" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{25AE6B87-D961-473D-B54B-05EEDAD94772}">
+										<Image FileName="1035814959" Left="3" Top="73" Right="1915" Bottom="1027" />
+										<TypeInfo Item0="{C24400C2-2427-40DD-B208-F1A8E4A538DC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="homePage" Key="{164C15A9-41FC-46AB-9832-EB41C14F01B4}">
+								<Image FileName="-1593084172" Left="5" Top="92" Right="1915" Bottom="1134" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="link_LogIn" Key="{7C2E8553-2135-4893-9006-B19F8ACC1E5A}">
+										<Image FileName="466404626" Left="1246" Top="189" Right="1299" Bottom="212" />
+										<TypeInfo Item0="{DB4FBC39-E464-40B3-A521-EF16187165D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;ico-login&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTopcartlink" Key="{1EAFAF21-062A-4076-AD8F-E68C23E625B3}">
+										<Image FileName="461367789" Left="1315" Top="189" Right="1441" Bottom="212" />
+										<TypeInfo Item0="{7717750E-837C-42E2-AFDF-2C81EE4D5367}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#topcartlink" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Shopping cart&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShoppingCart" Key="{3D3C0B61-647E-46A7-872E-4D6073A5A56E}">
+										<Image FileName="461367789" Left="1315" Top="189" Right="1438" Bottom="212" />
+										<TypeInfo Item0="{DB4FBC39-E464-40B3-A521-EF16187165D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Shopping cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//ul/li/a[contains(@class, &apos;ico-cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;topcartlink&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWishlist" Key="{FE720BBB-1E0D-45B5-BD0B-A32CDE0D3616}">
+										<Image FileName="-1152160688" Left="1453" Top="189" Right="1536" Bottom="212" />
+										<TypeInfo Item0="{DB4FBC39-E464-40B3-A521-EF16187165D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Wishlist&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//ul/li/a[contains(@class, &apos;ico-wishlist&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSmallSearchterms" Key="{9BF1B713-7C56-4D30-A2FD-55928776011B}">
+										<Image FileName="-2037607552" Left="1066" Top="233" Right="1456" Bottom="262" />
+										<TypeInfo Item0="{56B63A6D-A976-4294-A0F8-3EB6931908E6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#small-searchterms" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Search store&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;search-box-text&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSearch" Key="{5A38A27B-B8A8-45FC-8733-85C2F25C1B72}">
+										<Image FileName="1710749775" Left="1460" Top="233" Right="1530" Bottom="260" />
+										<TypeInfo Item0="{EB3125E8-EE71-4DE3-9FF8-469DEEFE35C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRegister" Key="{674FDEC3-57FE-4AEA-97C8-A0427D104B8D}">
+										<Image FileName="-821302274" Left="1163" Top="189" Right="1231" Bottom="212" />
+										<TypeInfo Item0="{DB4FBC39-E464-40B3-A521-EF16187165D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Register&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;ico-register&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{2041B448-D89B-4C97-936C-76FD2C38FADC}">
+										<Image FileName="-1740344095" Left="1237" Top="189" Right="1300" Bottom="212" />
+										<TypeInfo Item0="{DB4FBC39-E464-40B3-A521-EF16187165D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;ico-logout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link_Books" Key="{E87071DA-E00C-40A1-A40F-F9F7F9C38FDD}">
+										<Image FileName="-151646397" Left="391" Top="326" Right="1529" Bottom="375" />
+										<TypeInfo Item0="{7717750E-837C-42E2-AFDF-2C81EE4D5367}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Books&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBooks" Key="{357B5A95-5E91-49A7-8676-818C310A1EF7}">
+										<Image FileName="-1915994886" Left="392" Top="330" Right="486" Bottom="355" />
+										<TypeInfo Item0="{C44C6397-2FD6-444C-8EDE-48573293DD30}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="lnkUserAccount" Key="{AF3ABB81-6A6B-4326-BBAB-F571766E7454}">
+										<Image FileName="467858399" Left="1036" Top="152" Right="1171" Bottom="171" />
+										<TypeInfo Item0="{DB4FBC39-E464-40B3-A521-EF16187165D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div//ul/li/a[contains(@class, &apos;account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div/div[2]//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHome" Key="{2D9FA69C-B76D-4C21-9EB7-B9CCB92211D8}">
+										<Image FileName="1071739392" Left="498" Top="147" Right="808" Bottom="207" />
+										<TypeInfo Item0="{7717750E-837C-42E2-AFDF-2C81EE4D5367}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;logo.png&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="loginPage" Key="{9E2DCCDA-A4EF-45E1-BDBE-912B5E8CDD09}">
+								<Image FileName="23263956" Left="5" Top="92" Right="1915" Bottom="1134" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="txt_email" Key="{14164641-C4D2-48E1-8384-9F29E574E8A5}">
+										<Image FileName="23263956" Left="1239" Top="492" Right="1459" Bottom="517" />
+										<TypeInfo Item0="{6263DB87-0AC7-4335-AB01-AC043918F1F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="txt_password" Key="{8BB0A0E9-8E5D-4821-BF0F-F9AFA3ABD0E0}">
+										<Image FileName="391178900" Left="1239" Top="541" Right="1459" Bottom="566" />
+										<TypeInfo Item0="{6263DB87-0AC7-4335-AB01-AC043918F1F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogIn" Key="{B606B671-0A9D-4BD2-B180-C1D4A846ECCE}">
+										<Image FileName="-254666445" Left="1413" Top="696" Right="1478" Bottom="723" />
+										<TypeInfo Item0="{EB3125E8-EE71-4DE3-9FF8-469DEEFE35C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="registerPage" Key="{D6D3B110-613B-4496-9086-30B3433479CA}">
+								<Image FileName="1591283209" Left="5" Top="92" Right="1915" Bottom="1134" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/register" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="radio_btn_Male" Key="{94571669-F9F0-48CC-9F25-DF400447BDC6}">
+										<Image FileName="1591283209" Left="831" Top="488" Right="847" Bottom="504" />
+										<TypeInfo Item0="{CEAFD63A-4FD5-446C-A125-FAAE6CDF9523}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Male&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;M&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#gender-male" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@name=&apos;Gender&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div[2]//div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radio_btn_Female" Key="{BADFE699-5A47-4842-A1BD-6F6CDD070C3E}">
+										<Image FileName="-52805546" Left="904" Top="488" Right="920" Bottom="504" />
+										<TypeInfo Item0="{CEAFD63A-4FD5-446C-A125-FAAE6CDF9523}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Female&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;F&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#gender-female" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input[@name=&apos;Gender&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div[2]//div/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="txt_FirstName" Key="{4FAC66C6-F81E-4BBD-8D8A-F3A465BB7826}">
+										<Image FileName="-206612289" Left="824" Top="510" Right="1034" Bottom="535" />
+										<TypeInfo Item0="{6263DB87-0AC7-4335-AB01-AC043918F1F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;First name:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#FirstName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;FirstName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div[2]/div/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="txt_LastName" Key="{A58B32B0-A883-41CA-AF7F-A58612ABBBF3}">
+										<Image FileName="-919365729" Left="824" Top="541" Right="1034" Bottom="566" />
+										<TypeInfo Item0="{6263DB87-0AC7-4335-AB01-AC043918F1F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Last name:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#LastName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;LastName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="txt_Email" Key="{B72434C0-AAD6-40E3-A9AC-A6BCF56B6481}">
+										<Image FileName="1846705129" Left="824" Top="572" Right="1034" Bottom="597" />
+										<TypeInfo Item0="{6263DB87-0AC7-4335-AB01-AC043918F1F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="txt_password" Key="{FE0566ED-E42C-4FF3-970F-DAD010A2B266}">
+										<Image FileName="1962102345" Left="824" Top="662" Right="1034" Bottom="687" />
+										<TypeInfo Item0="{6263DB87-0AC7-4335-AB01-AC043918F1F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="txt_confirmPassword" Key="{2348FE37-03B8-4B48-B658-6EA872CBAE6D}">
+										<Image FileName="-1933164660" Left="824" Top="692" Right="1034" Bottom="717" />
+										<TypeInfo Item0="{6263DB87-0AC7-4335-AB01-AC043918F1F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Confirm password:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ConfirmPassword" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;ConfirmPassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonRegister" Key="{910EB748-B2E3-4581-88CF-5F2DEDBC8AD7}">
+										<Image FileName="-743146621" Left="641" Top="764" Right="721" Bottom="791" />
+										<TypeInfo Item0="{EB3125E8-EE71-4DE3-9FF8-469DEEFE35C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#register-button" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;register-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Register&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[2]/form//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="booksPage" Key="{6F5F87D1-19E6-41E5-8115-2200B9A5833C}">
+								<TypeInfo Item0="{7038757B-D97F-405D-8CBE-2E86482D8CA8}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/books" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeComputingAndInternet" Key="{0D9F5544-3254-44C6-A492-E06712FD336B}">
+										<Image FileName="347061607" Left="638" Top="539" Right="832" Bottom="574" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(., &apos;Computing and Internet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h2[contains(@class, &apos;product-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkComputingAndInternet" Key="{4AC5056F-0FC0-4825-B7DA-4C2BFD0A8C8A}">
+										<Image FileName="347061607" Left="638" Top="539" Right="832" Bottom="574" />
+										<TypeInfo Item0="{C44C6397-2FD6-444C-8EDE-48573293DD30}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Computing and Internet&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToCart" Key="{BF665D0E-B534-49C8-9946-2560C8F65BB4}">
+										<Image FileName="475293958" Left="1041" Top="785" Right="1118" Bottom="805" />
+										<TypeInfo Item0="{EB3125E8-EE71-4DE3-9FF8-469DEEFE35C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/div/input[@value=&apos;Add to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div[3]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/div/input[contains(@class, &apos;button-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="userPage" Key="{B5AD2569-FA2E-449D-AA1C-C905BD463B0D}">
+								<Image FileName="1758080632" Left="3" Top="73" Right="1915" Bottom="1027" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/customer/info" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="submitbuttonSave" Key="{DF6308E9-339A-4D96-8B34-525FEFC2BFD5}">
+										<Image FileName="-214811558" Left="1029" Top="506" Right="1073" Bottom="528" />
+										<TypeInfo Item0="{26745538-93F9-4138-84A0-233B6A58C1BA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;save-info-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4ACDD7F5-FEDE-4A2B-B437-2A89A3DE1112}">
+			<Child Name="BrowserWindow" Owner="{F7B437EA-9CC0-42F6-A5B5-593E4AF1E2FC}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{25AE6B87-D961-473D-B54B-05EEDAD94772}" />
+			</Child>
+			<Child Name="homePage" Owner="{164C15A9-41FC-46AB-9832-EB41C14F01B4}">
+				<Child Name="link_LogIn" Owner="{7C2E8553-2135-4893-9006-B19F8ACC1E5A}" />
+				<Child Name="textnodeTopcartlink" Owner="{1EAFAF21-062A-4076-AD8F-E68C23E625B3}">
+					<Child Name="linkShoppingCart" Owner="{3D3C0B61-647E-46A7-872E-4D6073A5A56E}" />
+				</Child>
+				<Child Name="linkWishlist" Owner="{FE720BBB-1E0D-45B5-BD0B-A32CDE0D3616}" />
+				<Child Name="textboxSmallSearchterms" Owner="{9BF1B713-7C56-4D30-A2FD-55928776011B}" />
+				<Child Name="submitbuttonSearch" Owner="{5A38A27B-B8A8-45FC-8733-85C2F25C1B72}" />
+				<Child Name="linkRegister" Owner="{674FDEC3-57FE-4AEA-97C8-A0427D104B8D}" />
+				<Child Name="linkLogOut" Owner="{2041B448-D89B-4C97-936C-76FD2C38FADC}" />
+				<Child Name="link_Books" Owner="{E87071DA-E00C-40A1-A40F-F9F7F9C38FDD}">
+					<Child Name="linkBooks" Owner="{357B5A95-5E91-49A7-8676-818C310A1EF7}" />
+				</Child>
+				<Child Name="lnkUserAccount" Owner="{AF3ABB81-6A6B-4326-BBAB-F571766E7454}" />
+				<Child Name="linkHome" Owner="{2D9FA69C-B76D-4C21-9EB7-B9CCB92211D8}" />
+			</Child>
+			<Child Name="loginPage" Owner="{9E2DCCDA-A4EF-45E1-BDBE-912B5E8CDD09}">
+				<Child Name="txt_email" Owner="{14164641-C4D2-48E1-8384-9F29E574E8A5}" />
+				<Child Name="txt_password" Owner="{8BB0A0E9-8E5D-4821-BF0F-F9AFA3ABD0E0}" />
+				<Child Name="submitbuttonLogIn" Owner="{B606B671-0A9D-4BD2-B180-C1D4A846ECCE}" />
+			</Child>
+			<Child Name="registerPage" Owner="{D6D3B110-613B-4496-9086-30B3433479CA}">
+				<Child Name="radio_btn_Male" Owner="{94571669-F9F0-48CC-9F25-DF400447BDC6}" />
+				<Child Name="radio_btn_Female" Owner="{BADFE699-5A47-4842-A1BD-6F6CDD070C3E}" />
+				<Child Name="txt_FirstName" Owner="{4FAC66C6-F81E-4BBD-8D8A-F3A465BB7826}" />
+				<Child Name="txt_LastName" Owner="{A58B32B0-A883-41CA-AF7F-A58612ABBBF3}" />
+				<Child Name="txt_Email" Owner="{B72434C0-AAD6-40E3-A9AC-A6BCF56B6481}" />
+				<Child Name="txt_password" Owner="{FE0566ED-E42C-4FF3-970F-DAD010A2B266}" />
+				<Child Name="txt_confirmPassword" Owner="{2348FE37-03B8-4B48-B658-6EA872CBAE6D}" />
+				<Child Name="submitbuttonRegister" Owner="{910EB748-B2E3-4581-88CF-5F2DEDBC8AD7}" />
+			</Child>
+			<Child Name="booksPage" Owner="{6F5F87D1-19E6-41E5-8115-2200B9A5833C}">
+				<Child Name="textnodeComputingAndInternet" Owner="{0D9F5544-3254-44C6-A492-E06712FD336B}">
+					<Child Name="linkComputingAndInternet" Owner="{4AC5056F-0FC0-4825-B7DA-4C2BFD0A8C8A}" />
+				</Child>
+				<Child Name="buttonAddToCart" Owner="{BF665D0E-B534-49C8-9946-2560C8F65BB4}" />
+			</Child>
+			<Child Name="userPage" Owner="{B5AD2569-FA2E-449D-AA1C-C905BD463B0D}">
+				<Child Name="submitbuttonSave" Owner="{DF6308E9-339A-4D96-8B34-525FEFC2BFD5}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
