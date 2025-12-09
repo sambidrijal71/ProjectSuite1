@@ -7,6 +7,7 @@
 			<child name="LoginUser" key="{A7D7C7EB-E96D-45FD-A5AB-710B6448009B}" path="LoginUser.tcKDTest" />
 			<child name="AddBooksToCart" key="{DCB8871D-C2EE-4BC4-8148-3438142B3E82}" path="AddBooksToCart.tcKDTest" />
 			<child name="LoginToCart" key="{19571EB6-1E3A-48BC-B203-C9CD557D2CDB}" path="LoginToCart.tcKDTest" />
+			<child name="Test1" key="{00B0F947-5BFE-4DD1-A28A-CC5FE23B28DE}" path="Test1.tcKDTest" />
 		</folder>
 		<child name="NavigateToWeb" key="{E1511518-D5B2-41EB-9F05-9D2A8196E9FD}" path="NavigateToWeb.tcKDTest" />
 		<child name="CloseBrowserWindow" key="{4A66A4FA-620F-4600-916E-95DC078D9C70}" path="CloseBrowserWindow.tcKDTest" />
